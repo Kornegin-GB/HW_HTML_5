@@ -1,0 +1,133 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+.center {
+   padding-left: calc(50% - 570px);
+   padding-right: calc(50% - 570px);
+}
+
+.header-link {
+   background: #222222;
+   color: #E8E8E8;
+   display: grid;
+   grid-template-columns: repeat(2, 111px);
+   align-items: center;
+   gap: 859px;
+   justify-content: center;
+   padding-top: 17px;
+   padding-bottom: 17px;
+}
+
+.logo {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   grid-template-columns: repeat(2, 0);
+   gap: 57px;
+}
+
+.user {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   grid-template-columns: repeat(3, 0);
+   gap: 49px;
+}
+
+.header {
+   background: #F1E4E6;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+   align-content: center;
+   gap: 64px;
+}
+
+.header-text {
+   border-left: 12px solid #F16D7F;
+   padding-left: 16px;
+}
+
+.title {
+   font-style: normal;
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 58px;
+   text-transform: uppercase;
+   color: #222222;
+}
+
+.title-text {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+   color: #222222;
+   text-transform: uppercase;
+}
+
+.text-selection {
+   color: #F16D7F;
+}
+
+.offer {
+   margin-top: 65px;
+   margin-bottom: 96px;
+   height: 470px;
+   display: grid;
+   grid-template-columns: repeat(3, 360px);
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+.item {
+   position: relative;
+}
+
+.img-item {
+   filter: brightness(40%)
+}
+
+.img-text {
+   position: absolute;
+   top: 50%;
+   left: calc(50% - 75px);
+   color: #E8E8E8
+}
+
+.img-text_1 {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.img-text_2 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #F16D7F;
+}
+
+.item-big {
+   grid-column: span 3;
+}
+
+.products {
+   height: 1395px;
+}
