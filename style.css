@@ -7,13 +7,15 @@ body {
    font-family: 'Lato', sans-serif;
 }
 
-a {
+.header-link a {
    text-decoration: none;
-}
-
-a:visited {
    color: #E8E8E8;
 }
+
+.header-link a:visited {
+   color: #E8E8E8;
+}
+
 
 .center {
    padding-left: calc(50% - 570px);
@@ -23,29 +25,27 @@ a:visited {
 .header-link {
    background: #222222;
    color: #E8E8E8;
-   display: grid;
-   grid-template-columns: repeat(2, 111px);
+   display: flex;
    align-items: center;
-   gap: 859px;
+   gap: 867px;
    justify-content: center;
    padding-top: 17px;
    padding-bottom: 17px;
+   flex-wrap: wrap;
 }
 
 .logo {
-   display: grid;
+   display: flex;
    align-items: center;
    justify-content: start;
-   grid-template-columns: repeat(2, 0);
-   gap: 57px;
+   gap: 41px;
 }
 
 .user {
-   display: grid;
+   display: flex;
    align-items: center;
    justify-content: end;
-   grid-template-columns: repeat(3, 0);
-   gap: 49px;
+   gap: 33px;
 }
 
 .header {
@@ -55,13 +55,16 @@ a:visited {
    justify-content: center;
    flex-direction: row;
    gap: 64px;
-   /* flex-wrap: wrap; */
+   flex-wrap: wrap;
+}
+
+.photo-hed {
+   margin-left: -348px;
 }
 
 .header-text {
    border-left: 12px solid #F16D7F;
    padding-left: 16px;
-   flex: 0 0 60%;
 }
 
 .title {
@@ -89,7 +92,6 @@ a:visited {
 .offer {
    margin-top: 65px;
    margin-bottom: 96px;
-   height: 470px;
    display: grid;
    grid-template-columns: repeat(3, 360px);
    align-items: center;
@@ -102,12 +104,13 @@ a:visited {
 }
 
 .img-item {
-   filter: brightness(40%)
+   filter: brightness(40%);
+   width: 100%;
 }
 
 .img-text {
    position: absolute;
-   top: 50%;
+   top: 30%;
    left: calc(50% - 75px);
    color: #E8E8E8
 }
